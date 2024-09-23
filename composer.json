@@ -1,0 +1,10 @@
+{
+    "name": "hexlet/code",
+    "description": "first project on hexlet",
+    "authors": [
+        {
+            "name": "dmitry"
+        }
+    ],
+    "require": {}
+}
