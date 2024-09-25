@@ -4,5 +4,5 @@
 
 ## Setup process
 
-
+[![asciicast](https://asciinema.org/a/6rjXw1XqiE1nM6M3FsI5KJVD7.svg)](https://asciinema.org/a/6rjXw1XqiE1nM6M3FsI5KJVD7)
 
