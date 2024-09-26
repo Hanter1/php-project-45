@@ -6,3 +6,6 @@
 
 [![asciicast](https://asciinema.org/a/6rjXw1XqiE1nM6M3FsI5KJVD7.svg)](https://asciinema.org/a/6rjXw1XqiE1nM6M3FsI5KJVD7)
 
+## Demo Game: "Calculator" 
+
+[![asciicast](https://asciinema.org/a/PIWA9yomULQJ7rEndQU5HmrO9.svg)](https://asciinema.org/a/PIWA9yomULQJ7rEndQU5HmrO9)
