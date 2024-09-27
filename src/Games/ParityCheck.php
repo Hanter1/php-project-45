@@ -6,8 +6,8 @@ use function BrainGames\Engine\isEvenNumber;
 use function cli\line;
 use function cli\prompt;
 
-function ParityCheckGame()
-{
+function ParityCheckGame() {
+
     $name = welcomeUser();
 
     line('Answer "yes" if the number is even, otherwise answer "no".');

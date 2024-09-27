@@ -2,11 +2,7 @@
 
 namespace BrainGames\Engine;
 
-use function cli\line;
-use function cli\prompt;
-
 //constants
-const COUNT_ROUNDS = 3;
 const MIN_NUM = 1;
 const MAX_NUM = 30;
 
@@ -22,8 +18,7 @@ function isEvenNumber($num):string
 }
 
 // We generate a random mathematical expression with two numbers and one of three operations.
-function generateExpression()
-{
+function generateExpression() {
     $num1 = rand(MIN_NUM, MAX_NUM);
     $num2 = rand(MIN_NUM, MAX_NUM);
     $operations = ['+', '-', '*'];
@@ -33,8 +28,7 @@ function generateExpression()
 }
 
 // We calculate the result of the expression depending on the operation.
-function calculateResult($num1, $num2, $operation)
-{
+function calculateResult($num1, $num2, $operation) {
     switch ($operation) {
         case '+':
             return $num1 + $num2;
@@ -45,4 +39,18 @@ function calculateResult($num1, $num2, $operation)
         default:
             return null;
     }
+}
+
+/*
+ * Function for calculating the GCD
+ * Implements the Euclidean algorithm for finding the GCD of two numbers.
+ * It uses a loop for division and remainder.
+*/
+function gcd($a, $b) {
+    while ($b != 0) {
+        $temp = $b;
+        $b = $a % $b;
+        $a = $temp;
+    }
+    return $a;
 }

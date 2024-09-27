@@ -9,3 +9,7 @@
 ## Demo Game: "Calculator" 
 
 [![asciicast](https://asciinema.org/a/PIWA9yomULQJ7rEndQU5HmrO9.svg)](https://asciinema.org/a/PIWA9yomULQJ7rEndQU5HmrO9)
+
+## Demo Game: "Gcd" 
+
+[![asciicast](https://asciinema.org/a/6aShBuYX5mzyn5y9Jo8w6PNhi.svg)](https://asciinema.org/a/6aShBuYX5mzyn5y9Jo8w6PNhi)

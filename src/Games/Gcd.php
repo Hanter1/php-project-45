@@ -1,23 +1,24 @@
 <?php
-namespace BrainGames\Games\Calc;
+namespace BrainGames\Games\Gcd;
 
 use function BrainGames\Cli\welcomeUser;
-use function BrainGames\Engine\generateExpression;
-use function BrainGames\Engine\calculateResult;
+use function BrainGames\Engine\gcd;
 use function cli\line;
 use function cli\prompt;
 
-function calcGame() {
+function playGame() {
 
     $name = welcomeUser();
 
-    line('What is the result of the expression?');
+    line("Find the greatest common divisor of given numbers.\n");
 
     for ($i = 0; $i < 3; $i++) {
-        list($num1, $num2, $operation) = generateExpression();
-        $correctAnswer = calculateResult($num1, $num2, $operation);
+        $num1 = rand(1, 100);
+        $num2 = rand(1, 100);
 
-        line( "Question: $num1 $operation $num2\n");
+        $correctAnswer = gcd($num1, $num2);
+
+        line("Question: $num1 $num2\n");
 
         $userAnswer = prompt("Your answer");
 
@@ -30,5 +31,5 @@ function calcGame() {
         }
     }
 
-    echo "Congratulations, $name!\n";
+    line("Congratulations, $name!\n");
 }
