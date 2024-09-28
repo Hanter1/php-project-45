@@ -69,3 +69,21 @@ function generateProgression() {
 
     return [$progression, $hiddenNumber];
 }
+
+// Function to check if a number is prime
+function isPrime($number) {
+    if ($number <= 1) {
+        return false;
+    }
+    for ($i = 2; $i <= sqrt($number); $i++) {
+        if ($number % $i == 0) {
+            return false;
+        }
+    }
+    return true;
+}
+
+// Function to generate a random number
+function generateRandomNumber($min, $max) {
+    return rand($min, $max);
+}

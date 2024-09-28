@@ -17,3 +17,7 @@
 ## Demo Game: "Arithmetic progression"
 
 [![asciicast](https://asciinema.org/a/ZxW3WYHNlF2lVSpUaEC7MUmD6.svg)](https://asciinema.org/a/ZxW3WYHNlF2lVSpUaEC7MUmD6)
+
+## Demo Game: Is a number prime?"
+
+[![asciicast](https://asciinema.org/a/d1ppNqkLYRG3Q5cS17tPZg6GQ.svg)](https://asciinema.org/a/d1ppNqkLYRG3Q5cS17tPZg6GQ)
