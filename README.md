@@ -1,10 +1,30 @@
+## Brain games
+
 ### Hexlet tests and linter status:
 
 [![Actions Status](https://github.com/Hanter1/php-project-45/actions/workflows/hexlet-check.yml/badge.svg)](https://github.com/Hanter1/php-project-45/actions) [![Maintainability](https://api.codeclimate.com/v1/badges/46dd26c3c2ad9a3c9957/maintainability)](https://codeclimate.com/github/Hanter1/php-project-45/maintainability)
 
+This is my first PHP project on Hexlet.<br>
+5 console games "Brain games":<br>
+<b>Brain-even</b> (the player needs to answer an even number or not),<br>
+<b>Brain-calc</b> (the player needs to calculate the value of the expression),<br>
+<b>Brain-gcd</b> (the player needs to find the largest common divisor),<br>
+<b>Brain-progression</b> (the player needs to find the missing number in the arithmetic progression),<br>
+<b>Brain-prime</b> (the player needs to answer a prime number or not).<br>
+All games consist of 3 rounds, if the player answers incorrectly, the game is interrupted with the player losing, in case of 3 correct answers, the player wins.
+<br>
+
 ## Setup process
 
-[![asciicast](https://asciinema.org/a/6rjXw1XqiE1nM6M3FsI5KJVD7.svg)](https://asciinema.org/a/6rjXw1XqiE1nM6M3FsI5KJVD7)
+```bash
+git clone https://github.com/Hanter1/php-project-45.git
+cd php-project-45
+make install
+```
+
+[![asciicast](https://asciinema.org/a/6ak6HY4uUcB8KkrNho4nrz2xH.svg)](https://asciinema.org/a/6ak6HY4uUcB8KkrNho4nrz2xH)
+## Starting games
+To start the game, enter 'make "game name"' in the console, for example: make brain-calc.
 
 ## Demo Game: "Calculator" 
 
@@ -21,3 +41,11 @@
 ## Demo Game: Is a number prime?"
 
 [![asciicast](https://asciinema.org/a/d1ppNqkLYRG3Q5cS17tPZg6GQ.svg)](https://asciinema.org/a/d1ppNqkLYRG3Q5cS17tPZg6GQ)
+
+## Requirements
+
+- Linux, WSL
+- PHP >= 8.3.11
+- Composer
+- Make
+- Git
