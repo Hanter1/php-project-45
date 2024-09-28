@@ -2,11 +2,6 @@
 
 namespace BrainGames\Engine;
 
-//constants
-const MIN_NUM = 1;
-const MAX_NUM = 30;
-
-
 // Checking the parity of a number
 function isEvenNumber($num):string
 {
@@ -19,8 +14,8 @@ function isEvenNumber($num):string
 
 // We generate a random mathematical expression with two numbers and one of three operations.
 function generateExpression() {
-    $num1 = rand(MIN_NUM, MAX_NUM);
-    $num2 = rand(MIN_NUM, MAX_NUM);
+    $num1 = rand(1, 30);
+    $num2 = rand(1, 30);
     $operations = ['+', '-', '*'];
     $operation = $operations[array_rand($operations)];
 
@@ -53,4 +48,24 @@ function gcd($a, $b) {
         $a = $temp;
     }
     return $a;
+}
+
+// Function to generate progression and find missing number
+function generateProgression() {
+    $start = rand(1, 20);
+    $step = rand(1, 5);
+    $length = rand(5, 10);
+
+    $progression = [];
+
+    for ($i = 0; $i < $length; $i++) {
+        $progression[] = $start + $i * $step;
+    }
+
+    // Selecting a random position for the missing number
+    $hiddenIndex = rand(0, $length - 1);
+    $hiddenNumber = $progression[$hiddenIndex];
+    $progression[$hiddenIndex] = '..';
+
+    return [$progression, $hiddenNumber];
 }

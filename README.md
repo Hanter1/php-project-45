@@ -13,3 +13,7 @@
 ## Demo Game: "Gcd" 
 
 [![asciicast](https://asciinema.org/a/6aShBuYX5mzyn5y9Jo8w6PNhi.svg)](https://asciinema.org/a/6aShBuYX5mzyn5y9Jo8w6PNhi)
+
+## Demo Game: "Arithmetic progression"
+
+[![asciicast](https://asciinema.org/a/ZxW3WYHNlF2lVSpUaEC7MUmD6.svg)](https://asciinema.org/a/ZxW3WYHNlF2lVSpUaEC7MUmD6)
