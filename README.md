@@ -23,24 +23,41 @@ make install
 ```
 
 [![asciicast](https://asciinema.org/a/6ak6HY4uUcB8KkrNho4nrz2xH.svg)](https://asciinema.org/a/6ak6HY4uUcB8KkrNho4nrz2xH)
+
 ## Starting games
 To start the game, enter 'make "game name"' in the console, for example: make brain-calc.
 
 ## Demo Game: "Calculator" 
 
+```php
+make brain-calc
+```
+
 [![asciicast](https://asciinema.org/a/PIWA9yomULQJ7rEndQU5HmrO9.svg)](https://asciinema.org/a/PIWA9yomULQJ7rEndQU5HmrO9)
 
 ## Demo Game: "Gcd" 
+
+```php
+make brain-gcd
+```
 
 [![asciicast](https://asciinema.org/a/6aShBuYX5mzyn5y9Jo8w6PNhi.svg)](https://asciinema.org/a/6aShBuYX5mzyn5y9Jo8w6PNhi)
 
 ## Demo Game: "Arithmetic progression"
 
+```php
+make brain-progression
+```
+
 [![asciicast](https://asciinema.org/a/ZxW3WYHNlF2lVSpUaEC7MUmD6.svg)](https://asciinema.org/a/ZxW3WYHNlF2lVSpUaEC7MUmD6)
 
 ## Demo Game: Is a number prime?"
 
-[![asciicast](https://asciinema.org/a/d1ppNqkLYRG3Q5cS17tPZg6GQ.svg)](https://asciinema.org/a/d1ppNqkLYRG3Q5cS17tPZg6GQ)
+```php
+make brain-ptime
+```
+
+[![asciicast](https://asciinema.org/a/9tfBNU7iLvxAZ3yjNYDYvcl7b.svg)](https://asciinema.org/a/9tfBNU7iLvxAZ3yjNYDYvcl7b)
 
 ## Requirements
 
@@ -49,3 +66,12 @@ To start the game, enter 'make "game name"' in the console, for example: make br
 - Composer
 - Make
 - Git
+
+<div>
+    <img src="https://github.com/devicons/devicon/blob/master/icons/linux/linux-original.svg" title="Linux" alt="Linux" width="40" height="40"/>&nbsp;
+    <img src="https://github.com/devicons/devicon/blob/master/icons/php/php-original.svg" title="php" alt="Php" width="40" height="40"/>&nbsp;
+    <img src="https://github.com/devicons/devicon/blob/master/icons/composer/composer-original.svg"  title="composer" alt="CSS" width="40" height="40"/>&nbsp;
+    <img src="https://github.com/devicons/devicon/blob/master/icons/git/git-plain.svg" title="git" alt="git" width="40" height="40"/>&nbsp;
+</div>
+
+
