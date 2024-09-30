@@ -3,7 +3,7 @@
 namespace BrainGames\Engine;
 
 // Checking the parity of a number
-function isEvenNumber($num)
+function isEvenNumber(int $num)
 {
     if ($num % 2 === 0) {
         return 'yes';
@@ -24,7 +24,7 @@ function generateExpression()
 }
 
 // We calculate the result of the expression depending on the operation.
-function calculateResult($num1, $num2, $operation)
+function calculateResult(int $num1, int $num2, string $operation)
 {
     switch ($operation) {
         case '+':
@@ -43,7 +43,7 @@ function calculateResult($num1, $num2, $operation)
  * Implements the Euclidean algorithm for finding the GCD of two numbers.
  * It uses a loop for division and remainder.
 */
-function gcd($a, $b)
+function gcd(int $a, int $b)
 {
     while ($b != 0) {
         $temp = $b;
@@ -75,7 +75,7 @@ function generateProgression()
 }
 
 // Function to check if a number is prime
-function isPrime($number)
+function isPrime(int $number)
 {
     if ($number <= 1) {
         return false;
@@ -89,7 +89,7 @@ function isPrime($number)
 }
 
 // Function to generate a random number
-function generateRandomNumber($min, $max)
+function generateRandomNumber( int $min, int $max)
 {
     return rand($min, $max);
 }
