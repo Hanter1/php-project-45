@@ -16,7 +16,6 @@ function playGame() {
         $number = generateRandomNumber(1, 100);
         $correctAnswer = isPrime($number) ? 'yes' : 'no';
 
-        // Выводим вопрос
         line("Question: $number\n");
 
         $userAnswer = prompt("Your answer");
