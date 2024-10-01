@@ -20,7 +20,7 @@ function playGame()
 
         $userAnswer = prompt("Your answer");
 
-        if ($userAnswer == $hiddenNumber) {
+        if ((int)$userAnswer === (int)$hiddenNumber) {
             line("Correct!");
         } else {
             line("'$userAnswer' is wrong answer ;(. Correct answer was '$hiddenNumber'.");

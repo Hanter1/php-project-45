@@ -22,7 +22,7 @@ function playGame()
 
         $userAnswer = prompt("Your answer");
 
-        if ($userAnswer === $correctAnswer) {
+        if ((string)$userAnswer === (string)$correctAnswer) {
             line("Correct!");
         } else {
             line("'$userAnswer' is wrong answer ;(. Correct answer was '$correctAnswer'.");

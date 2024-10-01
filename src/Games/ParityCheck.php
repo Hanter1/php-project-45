@@ -1,13 +1,13 @@
 <?php
 
-namespace BrainGames\Games\Parity;
+namespace BrainGames\Games\Even;
 
 use function BrainGames\Cli\welcomeUser;
 use function BrainGames\Engine\isEvenNumber;
 use function cli\line;
 use function cli\prompt;
 
-function ParityCheckGame()
+function playGame()
 {
 
     $name = welcomeUser();
